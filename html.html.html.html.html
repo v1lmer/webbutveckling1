@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Golf - Allt om sporten</title>
+
+<style>
+    *{
+        margin:0;
+        padding:0;
+        box-sizing:border-box;
+        font-family: Arial, sans-serif;
+    }
+
+    body{
+        background:#f4f4f4;
+        color:#333;
+        line-height:1.6;
+    }
+
+    header{
+        background:linear-gradient(to right, #0f7d32, #1ba34a);
+        color:white;
+        text-align:center;
+        padding:40px;
+    }
+
+    nav{
+        background:#222;
+        padding:15px;
+        text-align:center;
+    }
+
+    nav a{
+        color:white;
+        text-decoration:none;
+        margin:0 15px;
+        font-weight:bold;
+    }
+
+    nav a:hover{
+        color:#4CAF50;
+    }
+
+    section{
+        max-width:1200px;
+        margin:auto;
+        padding:40px 20px;
+    }
+
+    .card{
+        background:white;
+        padding:25px;
+        margin:20px 0;
+        border-radius:10px;
+        box-shadow:0 2px 10px rgba(0,0,0,0.1);
+    }
+
+    h2{
+        color:#0f7d32;
+        margin-bottom:15px;
+    }
+
+    .players{
+        display:grid;
+        grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+        gap:20px;
+    }
+
+    .player{
+        background:white;
+        padding:20px;
+        border-radius:10px;
+        box-shadow:0 2px 10px rgba(0,0,0,0.1);
+    }
+
+    footer{
+        background:#222;
+        color:white;
+        text-align:center;
+        padding:20px;
+        margin-top:40px;
+    }
+
+    ul{
+        margin-left:20px;
+    }
+</style>
+</head>
+<body>
+
+<header>
+    <h1>⛳ Golf - Allt du behöver veta</h1>
+    <p>Regler, historia, stjärnspelare och intressant fakta om golf.</p>
+</header>
+
+<nav>
+    <a href="#om">Om Golf</a>
+    <a href="#regler">Regler</a>
+    <a href="#spelare">Kända Spelare</a>
+    <a href="#historia">Historia</a>
+    <a href="#fakta">Fakta</a>
+</nav>
+
+<section id="om">
+    <div class="card">
+        <h2>Vad är golf?</h2>
+        <p>
+            Golf är en sport där spelaren använder olika klubbor för att slå en boll
+            från utslagsplatsen till hålet på så få slag som möjligt.
+            En standardrunda består av 18 hål.
+        </p>
+    </div>
+</section>
+
+<section id="regler">
+    <div class="card">
+        <h2>Golfens viktigaste regler</h2>
+
+        <ul>
+            <li>Spela bollen som den ligger.</li>
+            <li>Försök få bollen i hålet på så få slag som möjligt.</li>
+            <li>En standardrunda består av 18 hål.</li>
+            <li>Max 14 klubbor får bäras under en runda.</li>
+            <li>Spelare ska visa hänsyn och hålla god speltempo.</li>
+            <li>Straffslag delas ut vid vissa regelbrott.</li>
+            <li>Respektera banans säkerhet och etikett.</li>
+        </ul>
+    </div>
+</section>
+
+<section id="spelare">
+    <h2>Världens mest kända golfspelare</h2>
+
+    <div class="players">
+
+        <div class="player">
+            <h3>Tiger Woods</h3>
+            <p>
+                En av de mest framgångsrika golfspelarna genom tiderna.
+                Har vunnit många stora mästerskap och förändrat sporten.
+            </p>
+        </div>
+
+        <div class="player">
+            <h3>Jack Nicklaus</h3>
+            <p>
+                Kallas ofta "The Golden Bear" och har rekordet för flest
+                vunna majors.
+            </p>
+        </div>
+
+        <div class="player">
+            <h3>Rory McIlroy</h3>
+            <p>
+                Nordirländsk stjärna som länge varit en av världens bästa golfare.
+            </p>
+        </div>
+
+        <div class="player">
+            <h3>Annika Sörenstam</h3>
+            <p>
+                Sveriges mest framgångsrika kvinnliga golfspelare genom tiderna.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<section id="historia">
+    <div class="card">
+        <h2>Golfens historia</h2>
+
+        <p>
+            Golfens ursprung diskuteras fortfarande, men sporten utvecklades till
+            den moderna form vi känner idag främst i Skottland.
+            Under 1900-talet växte golf till en av världens mest populära sporter.
+        </p>
+
+        <p>
+            Professionell golf spelas idag på stora tourer där världens bästa
+            spelare tävlar om prestigefyllda titlar och stora prissummor.
+        </p>
+    </div>
+</section>
+
+<section id="fakta">
+    <div class="card">
+        <h2>Roliga fakta om golf</h2>
+
+        <ul>
+            <li>En golfboll har vanligtvis mellan 300 och 500 gropar.</li>
+            <li>Ett golfhål är 10,8 cm i diameter.</li>
+            <li>Golf blev åter en olympisk sport år 2016.</li>
+            <li>Vissa golfslag kan nå över 300 meter.</li>
+            <li>Professionella golfspelare tränar ofta flera timmar varje dag.</li>
+        </ul>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 Golf Information | Skapad i HTML & CSS</p>
+</footer>
+
+</body>
+</html>
